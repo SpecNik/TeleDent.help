@@ -18,9 +18,9 @@ export default function Home() {
 
       <section className="hero shell" id="top">
         <div className="heroCopy">
-          <div className="eyebrow"><span></span> AI-ASSISTED DENTAL CARE</div>
-          <h1>Dental guidance.<br/><em>Right when you need it.</em></h1>
-          <p className="lead">TeleDent.help connects patients with dental professionals through secure remote consultations, smart image analysis and clear next steps.</p>
+          <div className="eyebrow"><span></span> AI + OCR DENTAL ASSISTANT IN TELEGRAM</div>
+          <h1>Dental AI.<br/><em>Right inside Telegram.</em></h1>
+          <p className="lead">Send photos, X-rays or documents in Telegram. AI analyzes the images, OCR extracts important text and measurements, and a dental professional reviews the result before you receive clear next steps.</p>
           <div className="heroActions">
             <a className="primary" href={telegram}>Start in Telegram <span>â†—</span></a>
             <a className="secondary" href="#how">See how it works <span>â†“</span></a>
@@ -33,31 +33,31 @@ export default function Home() {
           <div className="phone">
             <div className="phoneTop"><span className="miniLogo">T</span><b>TeleDent.help</b><span className="online">â— ONLINE</span></div>
             <div className="scanCard">
-              <div className="scanHead"><span>AI DENTAL SCREENING</span><b>â€¢â€¢â€¢</b></div>
+              <div className="scanHead"><span>AI + OCR ANALYSIS</span><b>â€¢â€¢â€¢</b></div>
               <div className="tooth">ðŸ¦·<div className="focus"></div></div>
               <div className="progress"><span></span></div>
-              <small>Image analysis complete</small>
+              <small>Image analysis + text recognition complete</small>
             </div>
             <div className="result"><span>âœ“</span><div><small>PRELIMINARY RESULT</small><b>Professional review ready</b></div></div>
             <div className="message">Your photos have been reviewed. A dental professional will follow up with clear recommendations.</div>
           </div>
-          <div className="floating f1"><b>24/7</b><span>Digital access</span></div>
-          <div className="floating f2"><b>Secure</b><span>Private consultation</span></div>
+          <div className="floating f1"><b>AI + OCR</b><span>Images, X-rays & documents</span></div>
+          <div className="floating f2"><b>Telegram</b><span>No new app required</span></div>
         </div>
       </section>
 
-      <section className="proof"><div className="shell proofGrid"><div><b>3 steps</b><span>to get guidance</span></div><div><b>Fast</b><span>professional response</span></div><div><b>Remote</b><span>from any location</span></div><div><b>Clear</b><span>actionable next steps</span></div></div></section>
+      <section className="proof"><div className="shell proofGrid"><div><b>Telegram</b><span>familiar chat experience</span></div><div><b>AI vision</b><span>screens dental images</span></div><div><b>OCR</b><span>reads text and measurements</span></div><div><b>Human review</b><span>professional oversight</span></div></div></section>
 
       <section className="section shell" id="how">
-        <div className="sectionIntro"><span className="kicker">HOW IT WORKS</span><h2>From concern to clarity<br/>in three simple steps.</h2><p>No complicated forms. Just a guided conversation and professional support.</p></div>
+        <div className="sectionIntro"><span className="kicker">HOW THE TECHNOLOGY WORKS</span><h2>From a Telegram message<br/>to structured dental insight.</h2><p>AI vision and OCR prepare the information; a dental professional provides the final guidance.</p></div>
         <div className="steps">
-          <article><span>01</span><div className="icon">â†—</div><h3>Open the chat</h3><p>Start a private conversation with DentBot in Telegram.</p></article>
-          <article className="featured"><span>02</span><div className="icon">â—Ž</div><h3>Share your concern</h3><p>Describe your symptoms and upload clear photos when prompted.</p></article>
-          <article><span>03</span><div className="icon">âœ“</div><h3>Get next steps</h3><p>Receive an AI-assisted screening followed by professional guidance.</p></article>
+          <article><span>01</span><div className="icon">â†—</div><h3>Send it in Telegram</h3><p>Describe the concern and upload a photo, X-ray, referral or other dental document.</p></article>
+          <article className="featured"><span>02</span><div className="icon">â—Ž</div><h3>AI and OCR process it</h3><p>Computer vision screens the image while OCR recognizes text, tooth numbers and measurements.</p></article>
+          <article><span>03</span><div className="icon">âœ“</div><h3>Professional review</h3><p>A dental professional checks the prepared information and sends understandable next steps.</p></article>
         </div>
       </section>
 
-      <section className="benefits" id="benefits"><div className="shell benefitGrid"><div><span className="kicker light">BUILT AROUND PEOPLE</span><h2>Technology that supports care â€” not replaces it.</h2></div><div className="benefitList"><div><b>01</b><p><strong>Accessible anywhere</strong><span>Get orientation without an unnecessary trip to a clinic.</span></p></div><div><b>02</b><p><strong>Professional oversight</strong><span>Technology helps organize information for a human review.</span></p></div><div><b>03</b><p><strong>Simple and familiar</strong><span>Everything happens in Telegram â€” no new app required.</span></p></div></div></div></section>
+      <section className="benefits" id="benefits"><div className="shell benefitGrid"><div><span className="kicker light">BUILT AROUND PEOPLE</span><h2>AI organizes the data. A professional guides the patient.</h2></div><div className="benefitList"><div><b>01</b><p><strong>AI image screening</strong><span>Helps identify relevant areas in photos and dental images.</span></p></div><div><b>02</b><p><strong>OCR data extraction</strong><span>Turns text from referrals, reports and images into structured information.</span></p></div><div><b>03</b><p><strong>Human oversight</strong><span>AI output is preliminary and supports â€” never replaces â€” professional judgment.</span></p></div><div><b>04</b><p><strong>Telegram workflow</strong><span>Patients use a familiar messenger instead of installing another application.</span></p></div></div></div></section>
 
       <section className="cta shell" id="contact"><div><span className="kicker">READY WHEN YOU ARE</span><h2>Have a dental concern?<br/><em>Letâ€™s take the first step.</em></h2></div><a className="primary big" href={telegram}>Start consultation <span>â†—</span></a></section>
 
