@@ -11,6 +11,7 @@ export default function Home() {
         <div className="navLinks">
           <a href="#how">How it works</a>
           <a href="#benefits">Benefits</a>
+          <a href="#team">Team</a>
           <a href="#contact">Contact</a>
         </div>
         <a className="navCta" href={telegram}>Open Telegram <span>â†—</span></a>
@@ -58,6 +59,14 @@ export default function Home() {
       </section>
 
       <section className="benefits" id="benefits"><div className="shell benefitGrid"><div><span className="kicker light">BUILT AROUND PEOPLE</span><h2>AI organizes the data. A professional guides the patient.</h2></div><div className="benefitList"><div><b>01</b><p><strong>AI image screening</strong><span>Helps identify relevant areas in photos and dental images.</span></p></div><div><b>02</b><p><strong>OCR data extraction</strong><span>Turns text from referrals, reports and images into structured information.</span></p></div><div><b>03</b><p><strong>Human oversight</strong><span>AI output is preliminary and supports â€” never replaces â€” professional judgment.</span></p></div><div><b>04</b><p><strong>Telegram workflow</strong><span>Patients use a familiar messenger instead of installing another application.</span></p></div></div></div></section>
+
+      <section className="team section shell" id="team">
+        <div className="sectionIntro"><span className="kicker">THE PEOPLE BEHIND TELEDENT</span><h2>Built by people who believe<br/>dental guidance should be accessible.</h2></div>
+        <div className="teamGrid">
+          <article className="person"><div className="portrait"><img src="/german-aller.png" alt="German Aller, CEO and Founder of TeleDent" /></div><div className="personInfo"><span>01</span><div><h3>German Aller</h3><p>CEO &amp; Founder, TeleDent</p></div></div></article>
+          <article className="person"><div className="portrait"><img src="/nik-vin.png" alt="Nik Vin, TeleDent team" /></div><div className="personInfo"><span>02</span><div><h3>Nik Vin</h3><p>TeleDent Team</p></div></div></article>
+        </div>
+      </section>
 
       <section className="cta shell" id="contact"><div><span className="kicker">READY WHEN YOU ARE</span><h2>Have a dental concern?<br/><em>Letâ€™s take the first step.</em></h2></div><a className="primary big" href={telegram}>Start consultation <span>â†—</span></a></section>
 
