@@ -63,8 +63,8 @@ export default function Home() {
       <section className="team section shell" id="team">
         <div className="sectionIntro"><span className="kicker">THE PEOPLE BEHIND TELEDENT</span><h2>Built by people who believe<br/>dental guidance should be accessible.</h2></div>
         <div className="teamGrid">
-          <article className="person"><div className="portrait"><img src="/nik-vin.png" alt="Nikolay Vinokurov, Product Manager and Business Analyst" /></div><div className="personInfo"><span>01</span><div><h3>Nikolay Vinokurov</h3><p>Product Manager &amp; Business Analyst</p></div></div></article>
-          <article className="person"><div className="portrait"><img src="/german-aller.png" alt="German Aller, CEO and Founder of TeleDent" /></div><div className="personInfo"><span>02</span><div><h3>German Aller</h3><p>CEO &amp; Founder, TeleDent</p></div></div></article>
+          <article className="person"><div className="portrait"><img src="/german-aller.png" alt="German Aller, CEO and Founder of TeleDent" /></div><div className="personInfo"><span>01</span><div><h3>German Aller</h3><p>CEO &amp; Founder, TeleDent</p></div></div></article>
+          <article className="person"><div className="portrait"><img src="/nik-vin.png" alt="Nikolay Vinokurov, Product Manager and Business Analyst" /></div><div className="personInfo"><span>02</span><div><h3>Nikolay Vinokurov</h3><p>Product Manager &amp; Business Analyst</p></div></div></article>
         </div>
       </section>
 
