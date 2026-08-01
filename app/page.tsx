@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-const telegram = "https://t.me/teledent_help";
+const telegram = "https://t.me/Teledent_treatment_bot";
 type Lang = "en" | "ru" | "he";
 
 const copy = {
@@ -66,7 +66,7 @@ export default function Home() {
 
     <section className="team section shell" id="team"><div className="sectionIntro"><span className="kicker">{t.teamLabel}</span><h2>{t.teamTitle}</h2></div><div className="teamGrid"><article className="person"><div className="portrait"><img src="/german-aller.png" alt="Nikolay Vinokurov"/></div><div><h3>Nikolay Vinokurov</h3><p>Product Manager &amp; Business Analyst</p></div></article><article className="person"><div className="portrait"><img src="/nik-vin.png" alt="German Aller"/></div><div><h3>German Aller</h3><p>CEO &amp; Founder, TeleDent</p></div></article></div></section>
 
-    <section className="cta shell"><div><span className="kicker">TELEDENT VIP</span><h2>{t.ready}</h2><p>{t.readyText}</p></div><a className="primary" href={telegram}>{t.start}<span>â†—</span></a></section>
+    <section className="cta shell"><div className="ctaCopy"><span className="kicker">TELEDENT VIP</span><h2>{t.ready}</h2><p>{t.readyText}</p><a className="primary" href={telegram}>{t.start}<span>â†—</span></a></div><a className="botCard" href={telegram} aria-label="Open Teledent treatment bot in Telegram"><img src="/telegram-bot-qr.png" alt="QR code for Teledent treatment bot"/><div><small>TELEGRAM BOT</small><b>@Teledent_treatment_bot</b><span>Scan QR or tap to open â†—</span></div></a></section>
     <footer className="shell"><a className="brand" href="#top"><img src="/teledent-vip.png" alt=""/><span>TELE<span>DENT</span></span></a><p>{t.footer}</p><p>Â© 2026 TeleDent</p></footer>
   </main>;
 }
