@@ -7,7 +7,7 @@ const playfair = Playfair_Display({ variable: "--font-serif", subsets: ["latin",
 
 export const metadata: Metadata = {
   title: "TeleDent.help â€” Dental guidance, wherever you are",
-  description: "AI-assisted remote dental consultations with professional oversight and clear next steps.",
+  description: "AI vision and OCR dental assistant in Telegram, with professional review and clear next steps.",
 };
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
